@@ -1,0 +1,21 @@
+.title-tagline {
+    display: block;
+    font-size: 20px;
+    font-family: Kalam;
+    font-weight: 700; 
+    color: var(--color-accent);
+    text-align: left;
+
+    @media screen and (min-width: 768px) {
+    font-size: 22px;    
+    text-align: center;
+    }
+}
+
+.title-c {
+    text-align: center;
+}
+
+.title-c::after {
+    margin: 0 auto;
+}

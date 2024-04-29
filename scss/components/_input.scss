@@ -1,0 +1,30 @@
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+input[type="email" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+input[type="tel" i] {
+    direction: ltr;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+input, textarea, button {
+    outline: none;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+

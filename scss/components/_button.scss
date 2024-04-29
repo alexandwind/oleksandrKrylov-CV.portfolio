@@ -1,0 +1,59 @@
+.btn-a {
+    background-color: var(--color-main);
+    color: var(--color-background-lighter);    
+}
+
+.btn-d {
+    background-color: var(--color-accent);
+    color: var(--color-background-darker);
+    }
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--color-accent);
+    border-radius: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: all .3s;    
+
+    @media screen and (min-width: 768px) {
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+}
+}
+
+.up-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.up-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: transparent;
+    padding: 10px;
+    z-index: 1;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    transition: opacity .3s, visibility .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.up-btn .icon {
+    fill: var(--color-accent-light);
+    transition: fill, 0.3s;    
+}
+
+.icon:hover {
+fill: var(--color-accent);
+}

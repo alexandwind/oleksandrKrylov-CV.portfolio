@@ -1,0 +1,38 @@
+.skill-35 {
+ 
+    &__progress {
+        width: 270px;
+        height: 10px;
+        background-color: var(--color-grey);
+        border-radius: 5px;
+        margin: 8px 0;
+    }
+    
+    &__progress-body {
+        height: 10px;
+        width: 95px;
+        background-color: var(--color-accent);
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    &__mark {
+        position: absolute;
+        top: -32px;
+        right: -55px;
+    }
+    
+    &__value {
+        width: 54px;
+        height: 20px;
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        background-color: var(--color-background-darker);
+        color: var(--color-main);
+        border: 2px solid var(--color-accent);
+        border-radius: 7px;
+        position: relative;
+    }
+}
