@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--color-background-lighter);
+    text-align: center;
+    padding-top: 5px;
+  
+    @media screen and (min-width: 768px) {
+       padding-top: 10px;
+    }
+        
+    &__logo {
+        display: inline-block;
+        animation: fadeIn 1s;
+        margin-bottom: 5px;
+    }
+        
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: var(--color-main);
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    &__site-link {
+    animation: fadeInUp 1s;
+    margin-right: 15px;
+    transition: color .3s;
+
+    &:hover {
+      color: var(--color-accent);
+    }
+  }
+}
+
+
+

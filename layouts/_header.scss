@@ -1,0 +1,21 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background-lighter);
+    position: sticky;
+    z-index: 1000;
+    border-bottom: 1px var(--color-grey) solid;
+    border-radius: 3px;
+   
+  &__body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        @media screen and (min-width: 768px) {
+        padding: 20px 0;
+        }
+    }
+   }
+

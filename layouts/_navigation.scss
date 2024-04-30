@@ -1,0 +1,42 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    position: absolute;
+    top: 20px;
+    left: 27.5%;
+
+ @media screen and (min-width: 768px) {
+    position:unset;
+    }
+}
+
+.logo:hover {
+    cursor:pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.nav-links-web {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+    margin: 20px 0;
+}
+}
+
+.active {
+    border-bottom: 3px var(--color-accent) solid;
+    color: var(--color-accent);
+}
+
+
